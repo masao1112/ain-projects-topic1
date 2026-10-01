@@ -1,0 +1,98 @@
+[
+  {
+    "scenario": "S1_normal_route",
+    "algorithm": "BFS",
+    "heuristic": "-",
+    "cost": 551.5,
+    "expanded": 54,
+    "peak_frontier": 16,
+    "avg_runtime": 4.083899995748652e-05,
+    "min_runtime": 2.7800000680144876e-05,
+    "max_runtime": 0.0004436999988683965,
+    "std_runtime": 2.0548676538308808e-05
+  },
+  {
+    "scenario": "S1_normal_route",
+    "algorithm": "Greedy",
+    "heuristic": "Euclidean",
+    "cost": 551.5,
+    "expanded": 8,
+    "peak_frontier": 22,
+    "avg_runtime": 3.909349994864897e-05,
+    "min_runtime": 2.760000279522501e-05,
+    "max_runtime": 0.00025999999706982635,
+    "std_runtime": 1.8392478070211493e-05
+  },
+  {
+    "scenario": "S1_normal_route",
+    "algorithm": "A*",
+    "heuristic": "Euclidean",
+    "cost": 551.5,
+    "expanded": 9,
+    "peak_frontier": 21,
+    "avg_runtime": 8.813560005728505e-05,
+    "min_runtime": 3.3799999073380604e-05,
+    "max_runtime": 0.012303700001211837,
+    "std_runtime": 0.00039495472056579116
+  },
+  {
+    "scenario": "S2_blocked_edge",
+    "algorithm": "A*",
+    "heuristic": "Euclidean",
+    "cost": 587.0,
+    "expanded": 11,
+    "peak_frontier": 21,
+    "avg_runtime": 6.746169991311035e-05,
+    "min_runtime": 4.229999831295572e-05,
+    "max_runtime": 0.0012005999997199979,
+    "std_runtime": 5.70912879234451e-05
+  },
+  {
+    "scenario": "S3_accessibility_mode",
+    "algorithm": "A*",
+    "heuristic": "Euclidean",
+    "cost": 303.8,
+    "expanded": 9,
+    "peak_frontier": 7,
+    "avg_runtime": 2.1421100034785923e-05,
+    "min_runtime": 1.8500002624932677e-05,
+    "max_runtime": 0.00019040000188397244,
+    "std_runtime": 7.078330873770129e-06
+  },
+  {
+    "scenario": "S4_heuristic_comparison",
+    "algorithm": "A*",
+    "heuristic": "Euclidean",
+    "cost": 581.6,
+    "expanded": 13,
+    "peak_frontier": 16,
+    "avg_runtime": 4.530660003729281e-05,
+    "min_runtime": 3.599999763537198e-05,
+    "max_runtime": 0.0006193000008352101,
+    "std_runtime": 2.3739229316834674e-05
+  },
+  {
+    "scenario": "S4_heuristic_comparison",
+    "algorithm": "A*",
+    "heuristic": "Manhattan",
+    "cost": 622.9,
+    "expanded": 9,
+    "peak_frontier": 14,
+    "avg_runtime": 2.4175400023523252e-05,
+    "min_runtime": 2.300000051036477e-05,
+    "max_runtime": 3.80000019504223e-05,
+    "std_runtime": 1.1928275939364026e-06
+  },
+  {
+    "scenario": "S5_accessibility_no_path",
+    "algorithm": "A*",
+    "heuristic": "Euclidean",
+    "cost": null,
+    "expanded": 53,
+    "peak_frontier": 13,
+    "avg_runtime": 0.00011713139995845267,
+    "min_runtime": 0.000103599999420112,
+    "max_runtime": 0.003480800001852913,
+    "std_runtime": 0.00011721049331559487
+  }
+]
